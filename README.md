@@ -1,1 +1,2 @@
-# rk_turistic
+# WEB SITE TURISTIC TRAINING
+
