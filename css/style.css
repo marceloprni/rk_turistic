@@ -11,19 +11,28 @@ body {
     background-color: #09090A;
 }
 
-.grupo-all {
-    display: grid;
+.group-all {
+    display: flex;                    /* Usar grid layout */   /* Uma única coluna */
+    flex-direction: row;                 /* Espaço entre as seções */                   /* Centraliza o contêiner na página */
 }
 
-.grid_completo {
-    grid-template-columns: 1fr 1fr;
+.group-1{
+    width: 40rem;
+    margin: 20px;                   /* Margem em torno de cada grupo */   /* Fundo diferente para visualização */
+    border-radius: 10px;            /* Arredondar os cantos */
+    padding: 20px;   
+    height: auto;                  /* Espaço interno */
 }
 
-.group-1 {
-    margin: 100px 30px 164px 182px;
-    height: 600px;
-    width: 650px;
+.group-2 {
+    background-color: #FFFFFF;
+    width: 50rem;
+    margin: 20px;                   /* Margem em torno de cada grupo */   /* Fundo diferente para visualização */
+    border-radius: 10px;            /* Arredondar os cantos */
+    padding: 20px;     
+    height: auto;                    /* Deixe a altura automática */
 }
+
 
 .group-1 > img {
     height: 72px;
@@ -51,7 +60,7 @@ body {
     margin-top: 7rem;
     background-color: #202024;
     height: 7rem;
-    width: 22rem;
+    width: 24rem;
     border-radius: 3rem;
 }
 
@@ -61,23 +70,26 @@ body {
 
 }
 
+
 .group-1-1 p {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #E1E1E6;
     margin-left: 1rem;
     padding: 0;
 }
 
-.group-2 {
-    width: 852px;
-    height: 1082px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.group-2 h3 {
+    color: #e1624f;
 }
 
+.line_under {
+    border-bottom: 1px solid #747474; /* Altere a cor e a espessura conforme necessário */
+    padding-bottom: 10px;    
+}
+
+
 .group-2 img {
-    width: 600px;
+    width: 100%;
 }
 
 
